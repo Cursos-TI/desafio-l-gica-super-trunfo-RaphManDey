@@ -78,7 +78,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais \n", Pib1);
     printf("Números de Pontos Turísticos: %d \n", Pontos_turisticos1);
     printf("Densidade Populacional: %.2f \n", Densidade_Populacional1);
-    printf("PIB per Capita: %.2f \n\n", Pib_per_Capita1);
+    printf("PIB per Capita: %.2f \n", Pib_per_Capita1);
 
     //exibição da segunda carta
     printf("Carta 2:\n");
@@ -90,16 +90,16 @@ int main() {
     printf("PIB: %.2f bilhões de reais \n", Pib2);
     printf("Números de Pontos Turísticos: %d \n", Pontos_turisticos2);
     printf("Densidade Populacional: %.2f \n", Densidade_Populacional2);
-    printf("PIB per Capita: %.2f \n\n", Pib_per_Capita2);
+    printf("PIB per Capita: %.2f \n", Pib_per_Capita2);
 
     //Espaçamento
     printf("------------------ \n");
 
     // Comparação de Cartas:
     if (Pib_per_Capita1 > Densidade_Populacional2) {
-        printf("Cidade %s tem maior Pib per capita\n", Cidade1);
+        printf(" %s tem maior Pib per capita\n", Cidade1);
     } else {
-        printf("Cidade %s tem maior Pib per capita\n", Cidade2);
+        printf(" %s tem maior Pib per capita\n", Cidade2);
     }
 
     //Exibição dos Resultados:
