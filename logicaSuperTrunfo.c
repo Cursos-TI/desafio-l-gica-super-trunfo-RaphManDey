@@ -3,7 +3,7 @@
 // Desafio Super Trunfo 2
 
 int main() {
-    printf("Desafio Cartas Super Trunfo\n");
+    printf("Desafio Cartas Super Trunfo 2\n");
 
     //Declarações das variáveis da 1 Carta
     char Estado1;
