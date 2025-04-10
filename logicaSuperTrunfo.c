@@ -78,7 +78,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais \n", Pib1);
     printf("Números de Pontos Turísticos: %d \n", Pontos_turisticos1);
     printf("Densidade Populacional: %.2f \n", Densidade_Populacional1);
-    printf("PIB per Capita: %.2f \n", Pib_per_Capita1);
+    printf("PIB per Capita: %.2f \n\n", Pib_per_Capita1);
 
     //exibição da segunda carta
     printf("Carta 2:\n");
@@ -90,7 +90,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais \n", Pib2);
     printf("Números de Pontos Turísticos: %d \n", Pontos_turisticos2);
     printf("Densidade Populacional: %.2f \n", Densidade_Populacional2);
-    printf("PIB per Capita: %.2f \n", Pib_per_Capita2);
+    printf("PIB per Capita: %.2f \n\n", Pib_per_Capita2);
 
     //Espaçamento
     printf("------------------ \n");
@@ -99,10 +99,10 @@ int main() {
     int escolha;
     printf("Escolha o atributo para comparar:\n");
     printf("1 - População\n2 - Área\n3 - PIB\n4 - Pontos Turísticos\n5 - Densidade Populacional\n6 - PIB per Capita\n");
-    printf("Digite sua escolha: ");
+    printf("Digite sua escolha: \n");
     scanf("%d", &escolha);
 
-    printf("\n=== RESULTADO DA COMPARAÇÃO ===\n");
+    printf("=== RESULTADO DA COMPARAÇÃO ===\n");
 
     switch (escolha) {
         case 1: // População
