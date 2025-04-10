@@ -99,7 +99,7 @@ int main() {
     int escolha;
     printf("Escolha o atributo para comparar:\n");
     printf("1 - População\n2 - Área\n3 - PIB\n4 - Pontos Turísticos\n5 - Densidade Populacional\n6 - PIB per Capita\n");
-    printf("Digite sua escolha: \n");
+    printf("Digite sua escolha: \n\n");
     scanf("%d", &escolha);
 
     printf("=== RESULTADO DA COMPARAÇÃO ===\n");
